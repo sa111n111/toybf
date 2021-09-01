@@ -44,7 +44,7 @@ void parse_brainfuck(char* program) {
                     case '[': loop_trigger++;
                     case ']': loop_trigger--;
                 }
-                *program_pointer++;
+                program_pointer++;
             }
             break;
 
@@ -55,7 +55,7 @@ void parse_brainfuck(char* program) {
                     case '[': loop_trigger++;
                     case ']': loop_trigger--;
                 }
-                *program_pointer--;
+                program_pointer--;
             }
             break;
         }
