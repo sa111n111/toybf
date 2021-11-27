@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-char tape[3000]; 
+char tape[3000] = {0}; 
 char *data_pointer;
 char *program_pointer;
 
